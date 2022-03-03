@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Product Landing Project FCC</title>
+    <link rel="stylesheet" href="estilo.css">
+  </head>
+
+  <body>
+    <style media="screen">
+      @media (max-width: 600px) {
+        header {
+          flex-wrap: wrap;
+        }
+      }
+
+      nav > ul {
+        width: 40vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+      }
+    </style>
+    <div id="envoltura">
+      <header id="header">
+        <img
+           id="header-img"
+           class="logo"
+           src="https://previews.123rf.com/images/awk07/awk072012/awk07201200310/161025299-headphones-music-logo-vector-design.jpg"
+         >
+
+        <nav
+           id="nav-bar"
+         >
+            <ul>
+              <li><a class="nav-link" href="#sectionA">Acerca de</a></li>
+              <li><a class="nav-link" href="#sectionB">Contacto</a></li>
+              <li><a class="nav-link" href="#sectionC">Modelos</a></li>
+            </ul>
+        </nav>
+
+
+      </header>
+
+      <section id="sectionA">
+
+        <div>
+          <h1>Audífonos Omega<h1>
+          <p>Echa un vistaso  a nuestros productos, audifonos de la mejor calidad.</p>
+          <h2>Características:</h2>
+            <ul>
+              <li>Cómodos</li>
+              <li>Gran fidelidad de sonido</li>
+              <li>Materiales resistentes</li>
+            </ul>
+
+        </div>
+        <iframe
+          id="video"
+          src="https://www.youtube.com/watch?v=E5PXYehriYY"
+          ></iframe>
+      </section>
+
+
+      <section id="sectionB">
+
+        <h2>Dudas o comentarios?</h2>
+        <p>No dudes en ponerte en contacto con nosotros.</p>
+         <form
+          id="form"
+          action="https://www.freecodecamp.com/email-submit"
+          >
+          <label id="email-label" for="email" >E-mail
+          <input
+             id="email"
+             name="email"
+             type="email"
+             placeholder="e-mail"
+             required
+             >
+           </label>
+
+
+          <input id="submit" type="submit" >
+
+        </form>
+      </section>
+
+       <section id="sectionC">
+           <h2>Checa nuestros modelos, elije el que se ajusta a tu bolsillo</h2>
+        </section>
+
+      </div>
+    <script
+      src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"
+    >
+
+    </script>
+  </body>
+</html>
